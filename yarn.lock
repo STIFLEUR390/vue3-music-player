@@ -113,6 +113,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/vue-fontawesome@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "@fortawesome/vue-fontawesome@npm:2.0.8"
+  peerDependencies:
+    "@fortawesome/fontawesome-svg-core": ~1 || ~6
+    vue: ~2
+  checksum: 15900883e0537ae0daaddde96f1194ed977e604e002fb536934c10f3521800cb8a3af6d5a98687745947b6cb4059acb5da65880cf2f009949fc93645e8607205
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -1652,6 +1662,7 @@ __metadata:
     "@fortawesome/free-brands-svg-icons": ^6.2.0
     "@fortawesome/free-regular-svg-icons": ^6.2.0
     "@fortawesome/free-solid-svg-icons": ^6.2.0
+    "@fortawesome/vue-fontawesome": ^2.0.8
     "@popperjs/core": ^2.11.6
     "@rushstack/eslint-patch": ^1.1.4
     "@vitejs/plugin-vue": ^3.0.3
@@ -1663,6 +1674,7 @@ __metadata:
     jquery: ^3.6.1
     pinia: ^2.0.21
     prettier: ^2.7.1
+    sweetalert2: ^11.4.33
     vite: ^3.0.9
     vue: ^3.2.38
     vue-axios: ^3.4.1
@@ -2447,7 +2459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sweetalert2@npm:11.x":
+"sweetalert2@npm:11.x, sweetalert2@npm:^11.4.33":
   version: 11.4.33
   resolution: "sweetalert2@npm:11.4.33"
   checksum: cc8e25bd34fb1f3876a9af2d8f4b2d47859714e7ef35eaadcfa83db9fc8a74922a0121de29e056d4b69337b5cf68c88a6205aaa5e43d714fa2f8da8d73b11a58

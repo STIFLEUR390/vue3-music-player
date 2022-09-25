@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-brands-svg-icons", "npm:6.2.0"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.2.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.2.0"],\
+            ["@fortawesome/vue-fontawesome", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:2.0.8"],\
             ["@popperjs/core", "npm:2.11.6"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@vitejs/plugin-vue", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:3.1.0"],\
@@ -48,6 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jquery", "npm:3.6.1"],\
             ["pinia", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:2.0.22"],\
             ["prettier", "npm:2.7.1"],\
+            ["sweetalert2", "npm:11.4.33"],\
             ["vite", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:3.1.3"],\
             ["vue", "npm:3.2.39"],\
             ["vue-axios", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:3.4.1"],\
@@ -178,6 +180,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@fortawesome/free-solid-svg-icons", "npm:6.2.0"],\
             ["@fortawesome/fontawesome-common-types", "npm:6.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/vue-fontawesome", [\
+        ["npm:2.0.8", {\
+          "packageLocation": "./.yarn/cache/@fortawesome-vue-fontawesome-npm-2.0.8-ab2c887902-15900883e0.zip/node_modules/@fortawesome/vue-fontawesome/",\
+          "packageDependencies": [\
+            ["@fortawesome/vue-fontawesome", "npm:2.0.8"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:2.0.8", {\
+          "packageLocation": "./.yarn/__virtual__/@fortawesome-vue-fontawesome-virtual-fadab14758/0/cache/@fortawesome-vue-fontawesome-npm-2.0.8-ab2c887902-15900883e0.zip/node_modules/@fortawesome/vue-fontawesome/",\
+          "packageDependencies": [\
+            ["@fortawesome/vue-fontawesome", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:2.0.8"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.2.0"],\
+            ["@types/fortawesome__fontawesome-svg-core", null],\
+            ["@types/vue", null],\
+            ["vue", "npm:3.2.39"]\
+          ],\
+          "packagePeers": [\
+            "@fortawesome/fontawesome-svg-core",\
+            "@types/fortawesome__fontawesome-svg-core",\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2029,6 +2057,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/free-brands-svg-icons", "npm:6.2.0"],\
             ["@fortawesome/free-regular-svg-icons", "npm:6.2.0"],\
             ["@fortawesome/free-solid-svg-icons", "npm:6.2.0"],\
+            ["@fortawesome/vue-fontawesome", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:2.0.8"],\
             ["@popperjs/core", "npm:2.11.6"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@vitejs/plugin-vue", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:3.1.0"],\
@@ -2040,6 +2069,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jquery", "npm:3.6.1"],\
             ["pinia", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:2.0.22"],\
             ["prettier", "npm:2.7.1"],\
+            ["sweetalert2", "npm:11.4.33"],\
             ["vite", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:3.1.3"],\
             ["vue", "npm:3.2.39"],\
             ["vue-axios", "virtual:8d74d8a35374080a2f4dbd964e64b6ca7e1c1e37a040abc16e8ebd26ce4faba83dd60fe13af72f90749bfc7f1902b37185a1d28d9097c95c1abedd20c74921fd#npm:3.4.1"],\
